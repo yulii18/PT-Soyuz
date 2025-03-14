@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 4</title>
+</head>
+<body>
+    <table border="1" cellpadding="12">
+        <tr bgcolor="yellow">
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Alamat</th>
+            <th>Jenis Kelamin</th>
+            <th>Agama</th>
+            <th>Hobi</th>
+            <th>Instagram</th>
+            <th>Logo Universitas</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Yulianingsih</td>
+            <td>imyouliee18@gmail.com</td>
+            <td>Jl. Maleo</td>
+            <td bgcolor="pink">Perempuan</td>
+            <td rowspan="3">Islam</td>
+            <td>
+                1. Tidur<br>
+                2. Baca Komik</td>
+            <td>
+                <a href="https://www.instagram.com/yuliiaaningsih_" target="_blank">@yuliiaaningsih_</a>
+            </td>
+            <td rowspan="3"><img src="Logo-Untad-Baru.jpg" width="150"/></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Lara Fauzia</td>
+            <td>larafzia26@gmail.com</td>
+            <td>Jl. Dayodara</td>
+            <td bgcolor="pink">Perempuan</td>
+            <td>1. Menggambar</td>
+            <td>
+                <a href="https://www.instagram.com/_larafzia" target="_blank">@_larafzia</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Nur Ainun</td>
+            <td>nraainun06@gmail.com</td>
+            <td>Jl. Tolamunte</td>
+            <td bgcolor="pink">Perempuan</td>
+            <td>
+                1. Baca AU<br>
+                2. Main Game</td>
+            <td>
+                <a href="https://www.instagram.com/nr_aainun" target="_blank">@nr_aainun</a>
+            </td>
+        </tr>
+    </table><br>
+    <form>
+        <h1>Formulir Pendaftaran</h1>
+        <label>Nama :<br> <input type="text" /></label><br>
+        <label>Email :<br> <input type="text" /></label><br>
+        <label for="alamat">Alamat :</label><br>
+        <textarea id="alamat" name="alamat" rows="3" cols="25"></textarea><br>
+
+        <label for="jenis-kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="laki-laki" name="jenis-kelamin" value="laki-laki"/>
+        <label for="laki-laki">Laki-Laki</label>
+        <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan"/>
+        <label for="perempuan">Perempuan</label><br>
+
+        <label for="agama">Agama: </label><br>
+        <select>
+            <option value="1">Islam</option>
+            <option value="2">Kristen</option>
+            <option value="3">Hindu</option>
+            <option value="4">Buddha</option>
+            <option value="5">Konghucu</option>
+        </select><br>
+
+        <label for="hobi">Hobi :</label><br>
+        <input type="checkbox" id="membaca" name="hobi" value="membaca"/>
+        <label for="hobi">Membaca</label> 
+        <input type="checkbox" id="menulis" name="hobi" value="menulis"/>
+        <label for="hobi">Menulis</label> 
+        <input type="checkbox" id="menggambar" name="hobi" value="menggambar"/>
+        <label for="hobi">Menggambar</label> <br>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
